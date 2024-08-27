@@ -1,0 +1,243 @@
+.product-form {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+}
+.who-am-i-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 1.187rem;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.span {
+  font-size: 2.25rem;
+}
+.product-name-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 1.187rem;
+}
+.description,
+.frame-child24 {
+  position: relative;
+}
+.frame-child24 {
+  height: 4rem;
+  width: 12.938rem;
+  border-radius: 30px;
+  background-color: #ffa3be;
+  display: none;
+}
+.media1 {
+  font-weight: 600;
+}
+.media {
+  width: 7.313rem;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.rectangle-parent10 {
+  align-self: stretch;
+  border-radius: 30px;
+  background-color: #ffa3be;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0.5rem 2.062rem 0.437rem;
+}
+.description-media,
+.product-name-row-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.description-media {
+  width: 12.938rem;
+  gap: 2.625rem;
+}
+.product-name-row-parent {
+  gap: 4rem;
+}
+.shape-one {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 30px;
+  background-color: #faf9ff;
+  max-width: 100%;
+}
+.shape-one-wrapper {
+  width: 42.25rem;
+  height: 4.688rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 2.062rem;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.shape-two {
+  align-self: stretch;
+  height: 4.688rem;
+  position: relative;
+  border-radius: 30px;
+  background-color: #faf9ff;
+}
+.frame-parent22,
+.name-and-description,
+.name-and-description-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent22 {
+  flex: 1;
+  flex-direction: column;
+  gap: 1.875rem;
+  min-width: 41.938rem;
+}
+.name-and-description,
+.name-and-description-wrapper {
+  flex-direction: row;
+}
+.name-and-description {
+  width: 81.125rem;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.name-and-description-wrapper {
+  align-self: stretch;
+}
+.frame-child25 {
+  height: 10.438rem;
+  width: 79.75rem;
+  position: relative;
+  border-radius: 30px;
+  background-color: #faf9ff;
+  display: none;
+  max-width: 100%;
+}
+.upload-cloud-icon {
+  height: 3rem;
+  width: 3rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.drag-files-here {
+  white-space: pre-wrap;
+}
+.drag-files-here,
+.upload-upto-10 {
+  position: relative;
+  z-index: 1;
+}
+.about-me-headings {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 1.062rem;
+  font-size: 1.25rem;
+}
+.drag-and-upload,
+.drag-and-upload-wrapper {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.drag-and-upload {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.937rem;
+}
+.drag-and-upload-wrapper {
+  padding: 0.125rem 0 0;
+  box-sizing: border-box;
+}
+.drag-and-upload-wrapper,
+.form-container,
+.frame-parent21,
+.rectangle-parent11 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangle-parent11 {
+  width: 79.75rem;
+  border-radius: 30px;
+  background-color: #faf9ff;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 2.062rem 2.5rem 2.375rem;
+  box-sizing: border-box;
+  gap: 1.437rem;
+}
+.form-container,
+.frame-parent21 {
+  flex-direction: column;
+}
+.frame-parent21 {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: 0.437rem;
+  font-size: 2rem;
+}
+.form-container {
+  width: 85.563rem;
+  align-items: flex-start;
+  padding: 0 1.25rem 0.875rem 0;
+  box-sizing: border-box;
+  gap: 1rem;
+  text-align: left;
+  font-size: 2.25rem;
+  color: #000;
+  font-family: Poppins;
+}
+@media screen and (max-width: 1050px) {
+  .product-form {
+    font-size: 1.813rem;
+  }
+  .description,
+  .drag-files-here,
+  .media {
+    font-size: 1.625rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-parent22 {
+    min-width: 100%;
+  }
+  .rectangle-parent11 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .product-form {
+    font-size: 1.375rem;
+  }
+  .description,
+  .media {
+    font-size: 1.188rem;
+  }
+  .product-name-row-parent {
+    gap: 2rem;
+  }
+  .drag-files-here {
+    font-size: 1.188rem;
+  }
+  .upload-upto-10 {
+    font-size: 1rem;
+  }
+}

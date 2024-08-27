@@ -1,0 +1,221 @@
+.frame-child30,
+.overview4 {
+  position: relative;
+  display: none;
+}
+.frame-child30 {
+  width: 17.5rem;
+  height: 56.25rem;
+  border-radius: 0 0 48px 0;
+  background-color: #ffa3be;
+}
+.overview4 {
+  width: 1.5rem;
+  height: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.raja-s-chanab-16x20-removebg-p-icon2 {
+  width: 12.938rem;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.sales-icon3 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.sales-wrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.437rem 0 0;
+}
+.overview-icon6,
+.rajas-chanab2 {
+  position: relative;
+  z-index: 1;
+}
+.overview-icon6 {
+  height: 1.5rem;
+  width: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.5rem;
+}
+.dashboard4 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 4.938rem;
+  z-index: 1;
+}
+.dashboard-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.093rem 0 0;
+}
+.dashboard-container {
+  flex-direction: row;
+  gap: 0.875rem;
+}
+.dashboard-container,
+.dashboard-container-wrapper,
+.rajas-chanab-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dashboard-container-wrapper {
+  flex-direction: row;
+  padding: 0 0.312rem;
+  font-size: 0.875rem;
+}
+.rajas-chanab-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: 3.062rem;
+}
+.menu-item-container,
+.menu-item3,
+.sales-container2 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.sales-container2 {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 0.812rem;
+}
+.menu-item-container,
+.menu-item3 {
+  flex: 1;
+}
+.menu-item3 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.562rem;
+}
+.menu-item-container {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 0.312rem 0 0;
+}
+.rectangle-parent16 {
+  align-self: stretch;
+  height: 56.25rem;
+  border-radius: 0 0 48px 0;
+  background-color: #ffa3be;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 1.187rem 2.562rem 4rem 1rem;
+  box-sizing: border-box;
+  gap: 23.562rem;
+}
+.overview-icon7,
+.overview-icon8 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 1.488rem;
+  left: 3.825rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.overview-icon8 {
+  top: 1.5rem;
+  left: 6.375rem;
+}
+.customer-icon1 {
+  position: absolute;
+  top: 0;
+  left: -0.25rem;
+  background-color: #d9d9d9;
+  width: 17.5rem;
+  height: 4.5rem;
+  opacity: 0;
+  z-index: 3;
+}
+.costumer2 {
+  position: absolute;
+  top: 1.594rem;
+  left: 6.375rem;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 4.875rem;
+  z-index: 4;
+}
+.customer-container {
+  height: 37.313rem;
+  flex: 1;
+  position: relative;
+}
+.content-separator,
+.overview-pane {
+  align-self: stretch;
+  position: relative;
+  margin-top: -33.625rem;
+}
+.overview-pane {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0.25rem 0 0;
+  font-size: 0.875rem;
+}
+.content-separator {
+  margin-left: -0.125rem;
+  height: 4.5rem;
+  background-color: #d9d9d9;
+  opacity: 0;
+  z-index: 2;
+}
+.menu-container {
+  height: 56.25rem;
+  width: 17.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 1.5rem;
+  color: #fff;
+  font-family: Poppins;
+}
+@media screen and (max-width: 1050px) {
+  .rectangle-parent16 {
+    padding-top: 1.25rem;
+    padding-bottom: 2.625rem;
+    box-sizing: border-box;
+  }
+  .menu-container {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .rajas-chanab2 {
+    font-size: 1.188rem;
+  }
+  .rectangle-parent16 {
+    gap: 11.75rem;
+    padding-bottom: 1.688rem;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,120 @@
+.date-filter-option-child,
+.filter-popup-child {
+  position: relative;
+  border-radius: 30px;
+  display: none;
+}
+.filter-popup-child {
+  width: 520px;
+  height: 648px;
+  background-color: #fdf5eb;
+  max-width: 100%;
+  z-index: 0;
+}
+.date-filter-option-child {
+  align-self: stretch;
+  width: 245px;
+  background-color: #ffa3be;
+}
+.filters {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 119px;
+  z-index: 2;
+}
+.date-filter-content,
+.date-filter-option {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.date-filter-option {
+  border-radius: 30px;
+  background-color: #ffa3be;
+  justify-content: flex-start;
+  padding: 0 62px 1px 64px;
+  z-index: 1;
+}
+.date-filter-content {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.by-date {
+  position: relative;
+  font-weight: 500;
+  color: #000;
+  z-index: 1;
+}
+.date-filter,
+.date-filter-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.date-filter {
+  flex: 1;
+  flex-direction: column;
+  gap: 25px;
+}
+.date-filter-wrapper {
+  width: 405px;
+  flex-direction: row;
+  padding: 0 27px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 40px;
+  color: #1d1b20;
+  font-family: Poppins;
+}
+.filter-popup-inner,
+.filter-popup-item {
+  width: 436px;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid #fff;
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+  z-index: 2;
+}
+.filter-popup-inner {
+  z-index: 3;
+}
+.filter-divider {
+  width: 460px;
+  height: 72px;
+  position: absolute;
+  margin: 0 !important;
+  top: 181px;
+  left: calc(50% - 230px);
+  border-radius: 40px;
+  background-color: #fff;
+  z-index: 2;
+}
+.filter-popup {
+  width: 520px;
+  position: relative;
+  border-radius: 30px;
+  background-color: #fdf5eb;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 34px 13px 39px;
+  box-sizing: border-box;
+  gap: 84px;
+  line-height: normal;
+  letter-spacing: normal;
+  max-width: 100%;
+  max-height: 100%;
+}
+@media screen and (max-width: 450px) {
+  .filter-popup {
+    gap: 42px;
+  }
+}

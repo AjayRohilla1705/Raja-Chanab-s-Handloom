@@ -1,0 +1,82 @@
+.settings-icon1 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.5rem;
+  z-index: 1;
+}
+.settings1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 3.625rem;
+  z-index: 1;
+}
+.frame-wrapper10,
+.settings-container,
+.settings-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.settings-container {
+  flex-direction: column;
+  padding: 0.187rem 0 0;
+}
+.frame-wrapper10,
+.settings-parent {
+  flex-direction: row;
+}
+.settings-parent {
+  gap: 0.687rem;
+}
+.frame-wrapper10 {
+  padding: 0 2.937rem;
+}
+.log-out1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 4.313rem;
+  z-index: 1;
+}
+.log-out-wrapper {
+  margin-bottom: -1.625rem;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 2.562rem 1rem 2.187rem;
+}
+.frame-parent17,
+.frame-wrapper11,
+.log-out-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.frame-wrapper11 {
+  align-self: stretch;
+  height: 2.625rem;
+  border-radius: 10px;
+  background-color: #faf9ff;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0 2.625rem;
+  box-sizing: border-box;
+  z-index: 1;
+  font-size: 1rem;
+  color: #000;
+}
+.frame-parent17 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.625rem;
+  text-align: left;
+  font-size: 0.875rem;
+  color: #fff;
+  font-family: Poppins;
+}

@@ -1,0 +1,230 @@
+.maximum-quantity-discount {
+  white-space: pre-wrap;
+}
+.maximum-quantity-discount-container,
+.maximum-quantity-discount-container1 {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.maximum-quantity-discount-container1 {
+  z-index: 1;
+  margin-left: -782px;
+}
+.max-quantity-description {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.max-quantity-description-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 5px;
+  box-sizing: border-box;
+  min-width: 508px;
+  max-width: 100%;
+}
+.max-quantity-border {
+  height: 65px;
+  width: 345px;
+  position: relative;
+  border-radius: 30px;
+  background-color: #fff;
+  max-width: 100%;
+}
+.max-quantity-label {
+  width: 1159px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 32px;
+  max-width: 100%;
+}
+.maximum-product-quantity-container {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 385px;
+  max-width: 100%;
+}
+.product-quantity-border {
+  height: 65px;
+  width: 409px;
+  position: relative;
+  border-radius: 30px;
+  background-color: #fff;
+  max-width: 100%;
+}
+.product-quantity-fields {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 39px;
+  max-width: 100%;
+}
+.promotion-banner-container {
+  width: 370px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.product-quantity-input {
+  width: 1041px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 23px;
+  max-width: 100%;
+}
+.uploader-child {
+  height: 159px;
+  width: 1209px;
+  position: relative;
+  border-radius: 30px;
+  background-color: #fff;
+  display: none;
+  max-width: 100%;
+}
+.upload-cloud-icon1 {
+  height: 65px;
+  width: 68px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.drag-files-here1 {
+  position: relative;
+  white-space: pre-wrap;
+  z-index: 1;
+}
+.upload-3-files {
+  position: relative;
+  font-size: 20px;
+  z-index: 1;
+}
+.drag-files-here-and-click-to-u-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3px;
+}
+.upload-container,
+.upload-instructions,
+.uploader {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.upload-instructions {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 5px 0 0;
+  box-sizing: border-box;
+}
+.upload-container,
+.uploader {
+  flex-direction: row;
+}
+.uploader {
+  width: 1209px;
+  border-radius: 30px;
+  background-color: #fff;
+  justify-content: flex-start;
+  padding: 27px 91px 45px;
+  box-sizing: border-box;
+  gap: 12px;
+}
+.upload-container {
+  align-self: stretch;
+  justify-content: flex-end;
+  font-size: 32px;
+}
+.max-quantity-container,
+.product-quantity-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 23px;
+  max-width: 100%;
+}
+.max-quantity-container {
+  gap: 40px;
+  text-align: left;
+  font-size: 36px;
+  color: #000;
+  font-family: Poppins;
+}
+@media screen and (max-width: 950px) {
+  .uploader {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 925px) {
+  .maximum-product-quantity-container,
+  .maximum-quantity-discount-container,
+  .maximum-quantity-discount-container1,
+  .promotion-banner-container {
+    font-size: 29px;
+  }
+  .drag-files-here1 {
+    font-size: 26px;
+  }
+  .uploader {
+    padding-left: 45px;
+    padding-right: 45px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .max-quantity-description-wrapper {
+    min-width: 100%;
+  }
+  .max-quantity-label {
+    gap: 16px;
+  }
+  .maximum-product-quantity-container {
+    min-width: 100%;
+  }
+  .product-quantity-fields {
+    gap: 19px;
+  }
+  .max-quantity-container {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .maximum-product-quantity-container,
+  .maximum-quantity-discount-container,
+  .maximum-quantity-discount-container1,
+  .promotion-banner-container {
+    font-size: 22px;
+  }
+  .drag-files-here1 {
+    font-size: 19px;
+  }
+  .upload-3-files {
+    font-size: 16px;
+  }
+  .uploader {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

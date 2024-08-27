@@ -1,0 +1,257 @@
+.add-posts {
+  position: relative;
+}
+.add-post-button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 13px;
+}
+.drag-drop-upload-area-child {
+  height: 159px;
+  width: 1209px;
+  position: relative;
+  border-radius: 30px;
+  background-color: #fff;
+  display: none;
+  max-width: 100%;
+}
+.upload-cloud-icon2 {
+  height: 65px;
+  width: 68px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.drag-files-here2 {
+  position: relative;
+  white-space: pre-wrap;
+  z-index: 1;
+}
+.upload-3-files1 {
+  position: relative;
+  font-size: 20px;
+  z-index: 1;
+}
+.drag-drop-upload-instructions,
+.drag-files-here-and-click-to-u-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.drag-files-here-and-click-to-u-group {
+  gap: 3px;
+}
+.drag-drop-upload-instructions {
+  padding: 5px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.drag-drop-upload,
+.drag-drop-upload-area {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.drag-drop-upload-area {
+  width: 1209px;
+  border-radius: 30px;
+  background-color: #fff;
+  justify-content: flex-start;
+  padding: 40px 70px 32px;
+  box-sizing: border-box;
+  gap: 12px;
+}
+.drag-drop-upload {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.add-post-links {
+  height: 54px;
+  position: relative;
+  white-space: pre-wrap;
+  display: inline-block;
+}
+.post-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 6px 0 0;
+}
+.post-links-input {
+  height: 65px;
+  flex: 1;
+  position: relative;
+  border-radius: 30px;
+  background-color: #fff;
+  min-width: 534px;
+  max-width: 100%;
+}
+.drag-drop-upload-container,
+.post-links-container,
+.view-post-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.post-links-container {
+  width: 1136px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 35px;
+  font-size: 36px;
+}
+.drag-drop-upload-container,
+.view-post-container {
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.drag-drop-upload-container {
+  align-self: stretch;
+  padding: 0 0 16px;
+  gap: 25px;
+  font-size: 32px;
+}
+.view-post-container {
+  padding: 6px 0 0;
+}
+.view-likes-container {
+  align-self: stretch;
+  flex-wrap: wrap;
+  gap: 49px;
+}
+.likes,
+.likes-container,
+.view-likes-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.likes {
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.likes-container {
+  width: 1197px;
+  padding: 0 1px;
+  box-sizing: border-box;
+}
+.view-likes-container-parent {
+  width: 1215px;
+  gap: 30px;
+  max-width: 100%;
+}
+.profile-link-input-container,
+.upload-elements,
+.view-likes-container-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.upload-elements {
+  align-self: stretch;
+  gap: 14px;
+  max-width: 100%;
+}
+.profile-link-input-container {
+  padding: 8px 0 0;
+}
+.profile-link-input {
+  height: 65px;
+  flex: 1;
+  position: relative;
+  border-radius: 30px;
+  background-color: #fff;
+  min-width: 534px;
+  max-width: 100%;
+}
+.profile-link-container {
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 59px;
+}
+.profile-link-container,
+.profile-link-container-wrapper,
+.upload-container1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.profile-link-container-wrapper {
+  width: 1129px;
+  flex-direction: row;
+  padding: 0 23px;
+  box-sizing: border-box;
+}
+.upload-container1 {
+  flex: 1;
+  flex-direction: column;
+  gap: 34px;
+  text-align: left;
+  font-size: 36px;
+  color: #000;
+  font-family: Poppins;
+}
+@media screen and (max-width: 825px) {
+  .add-posts {
+    font-size: 29px;
+  }
+  .drag-files-here2 {
+    font-size: 26px;
+  }
+  .drag-drop-upload-area {
+    flex-wrap: wrap;
+    padding-left: 35px;
+    padding-right: 35px;
+    box-sizing: border-box;
+  }
+  .add-post-links {
+    font-size: 29px;
+  }
+  .profile-link-input {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 675px) {
+  .post-links-input {
+    min-width: 100%;
+  }
+  .post-links-container {
+    gap: 17px;
+  }
+  .view-likes-container {
+    gap: 24px;
+  }
+  .profile-link-container {
+    gap: 29px;
+  }
+  .upload-container1 {
+    gap: 17px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .add-posts {
+    font-size: 22px;
+  }
+  .drag-files-here2 {
+    font-size: 19px;
+  }
+  .upload-3-files1 {
+    font-size: 16px;
+  }
+  .add-post-links {
+    font-size: 22px;
+  }
+}

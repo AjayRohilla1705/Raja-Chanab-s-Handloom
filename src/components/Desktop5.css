@@ -1,0 +1,172 @@
+.manage-promotions,
+.name {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+}
+.manage-promotions {
+  font-weight: 700;
+  display: inline-block;
+  max-width: 100%;
+}
+.name {
+  align-self: stretch;
+}
+.promo-name-container {
+  width: 136px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 6px 0 0;
+  box-sizing: border-box;
+}
+.promo-name-border {
+  height: 65px;
+  flex: 1;
+  position: relative;
+  border-radius: 30px;
+  background-color: #fff;
+  min-width: 534px;
+  max-width: 100%;
+}
+.promo-details {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+  max-width: 100%;
+}
+.container {
+  flex: 1;
+  flex-direction: column;
+  gap: 39px;
+  text-align: left;
+  font-size: 36px;
+  color: #000;
+  font-family: Poppins;
+}
+.container,
+.container-wrapper,
+.page {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.container-wrapper {
+  width: 1013px;
+  flex-direction: row;
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+.page {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 33.5px;
+}
+.add-promo-button-child {
+  height: 65px;
+  width: 821px;
+  position: relative;
+  border-radius: 30px;
+  background-color: #ffa3be;
+  display: none;
+  max-width: 100%;
+}
+.add-promotion-to {
+  position: relative;
+  z-index: 1;
+}
+.add-promo-button,
+.add-promotion-container,
+.desktop-8 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.add-promo-button {
+  width: 821px;
+  border-radius: 30px;
+  background-color: #ffa3be;
+  justify-content: flex-start;
+  padding: 0 169px 11px;
+  box-sizing: border-box;
+}
+.add-promotion-container,
+.desktop-8 {
+  width: 1161px;
+  justify-content: center;
+}
+.desktop-8 {
+  width: 1440px;
+  position: relative;
+  background-color: #fdf5eb;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 15px 132px 48px 20px;
+  box-sizing: border-box;
+  gap: 73px;
+  line-height: normal;
+  letter-spacing: normal;
+  max-height: 100%;
+  text-align: left;
+  font-size: 36px;
+  color: #000;
+  font-family: Poppins;
+}
+@media screen and (max-width: 925px) {
+  .manage-promotions {
+    font-size: 29px;
+  }
+  .promo-name-border {
+    min-width: 100%;
+  }
+  .add-promotion-to {
+    font-size: 29px;
+  }
+  .add-promo-button {
+    padding-left: 84px;
+    padding-right: 84px;
+    box-sizing: border-box;
+  }
+  .desktop-8 {
+    gap: 36px;
+    padding-right: 66px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .promo-details {
+    gap: 20px;
+  }
+  .container {
+    gap: 19px;
+  }
+  .page {
+    gap: 17px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .add-promotion-to,
+  .manage-promotions {
+    font-size: 22px;
+  }
+  .add-promo-button,
+  .desktop-8 {
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .add-promo-button {
+    padding-left: 20px;
+  }
+  .desktop-8 {
+    gap: 18px;
+  }
+}

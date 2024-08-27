@@ -1,0 +1,60 @@
+.buttons-stars-child,
+.desktop-4-child {
+  width: 17.813rem;
+  height: 4.688rem;
+  position: relative;
+  border-radius: 30px;
+  background-color: #faf9ff;
+  display: none;
+}
+.buttons-stars-child {
+  height: 3.125rem;
+  width: 25.25rem;
+  background-color: #ffa3be;
+  max-width: 100%;
+}
+.add-product {
+  position: relative;
+  font-weight: 200;
+  z-index: 1;
+}
+.buttons-stars {
+  width: 25.25rem;
+  border-radius: 30px;
+  background-color: #ffa3be;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0.125rem 1.25rem 0;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.add-product-row,
+.buttons-stars,
+.desktop-4 {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.add-product-row {
+  width: 85.5rem;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 1.25rem;
+  max-width: 100%;
+}
+.desktop-4 {
+  width: 100%;
+  position: relative;
+  background-color: #fdf5eb;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1.187rem 0.562rem 1.75rem;
+  gap: 1.25rem;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 2rem;
+  color: #000;
+  font-family: Poppins;
+}

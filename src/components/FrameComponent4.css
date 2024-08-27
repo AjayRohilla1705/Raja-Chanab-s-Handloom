@@ -1,0 +1,215 @@
+.barcode,
+.frame-child28 {
+  position: relative;
+}
+.frame-child28 {
+  height: 4rem;
+  width: 12.938rem;
+  border-radius: 30px;
+  background-color: #ffa3be;
+  display: none;
+}
+.quantity {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.rectangle-parent14 {
+  border-radius: 30px;
+  background-color: #ffa3be;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.562rem 1.375rem 0.437rem 1.625rem;
+  white-space: nowrap;
+}
+.about-me-content {
+  border: 0;
+  background-color: transparent;
+  flex: 1;
+  font-family: Poppins;
+  font-weight: 200;
+  font-size: 2rem;
+  color: #000;
+  max-width: 100%;
+}
+.about-me-content-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 1.312rem;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.quantity-row {
+  flex: 1;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.barcode-row,
+.illustrator-logo,
+.quantity-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.illustrator-logo {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 0.125rem;
+  box-sizing: border-box;
+}
+.barcode-row {
+  width: 33.188rem;
+  flex-direction: column;
+  gap: 2.062rem;
+  min-width: 33.188rem;
+}
+.sku {
+  align-self: stretch;
+  position: relative;
+  white-space: pre-wrap;
+}
+.sku-wrapper {
+  width: 5.813rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1.375rem 0 0;
+  box-sizing: border-box;
+}
+.s-k-u-shape {
+  height: 4.688rem;
+  flex: 1;
+  position: relative;
+  border-radius: 30px;
+  background-color: #faf9ff;
+  min-width: 16.688rem;
+  max-width: 100%;
+}
+.s-k-u-field,
+.s-k-u-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.s-k-u-field {
+  flex: 1;
+  justify-content: flex-start;
+  gap: 2.75rem;
+}
+.s-k-u-row {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 2rem 0 0;
+  box-sizing: border-box;
+}
+.frame-child29 {
+  height: 4.688rem;
+  width: 31.75rem;
+  position: relative;
+  border-radius: 30px;
+  background-color: #faf9ff;
+  display: none;
+  max-width: 100%;
+}
+.in-warehouse {
+  position: relative;
+  font-weight: 200;
+  z-index: 1;
+}
+.rectangle-parent15 {
+  width: 31.75rem;
+  border-radius: 30px;
+  background-color: #faf9ff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.937rem 1.5rem 0.75rem;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.barcode-container,
+.s-k-u-row-parent {
+  display: flex;
+  align-items: flex-end;
+  max-width: 100%;
+}
+.s-k-u-row-parent {
+  width: 36.25rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 8.25rem;
+  min-width: 36.25rem;
+}
+.barcode-container {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1.25rem;
+}
+.barcode-container-wrapper {
+  width: 81.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0.562rem 1.312rem;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: 2rem;
+  color: #000;
+  font-family: Poppins;
+}
+@media screen and (max-width: 1200px) {
+  .barcode-row,
+  .s-k-u-field,
+  .s-k-u-row-parent {
+    flex: 1;
+  }
+  .barcode-container {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .barcode,
+  .in-warehouse,
+  .sku {
+    font-size: 1.625rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .quantity-row {
+    gap: 1.25rem;
+  }
+  .barcode-row {
+    gap: 1rem;
+    min-width: 100%;
+  }
+  .s-k-u-field {
+    flex-wrap: wrap;
+    gap: 1.375rem;
+  }
+  .s-k-u-row-parent {
+    gap: 4.125rem;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .barcode,
+  .in-warehouse,
+  .sku {
+    font-size: 1.188rem;
+  }
+  .s-k-u-row-parent {
+    gap: 2.063rem;
+  }
+}

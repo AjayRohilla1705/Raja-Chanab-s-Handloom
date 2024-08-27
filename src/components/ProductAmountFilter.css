@@ -1,0 +1,132 @@
+.span1 {
+  color: #fff;
+}
+.by-product-container {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.product-filter {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 17px;
+}
+.product-filter-divider {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 40px;
+  background-color: #fff;
+  max-width: 100%;
+  z-index: 1;
+}
+.product-filter-content {
+  align-self: stretch;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 17px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.by-amount {
+  white-space: pre-wrap;
+}
+.by-amount-container,
+.less-than1,
+.more-than {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.by-amount-container {
+  height: 60px;
+}
+.less-than1,
+.more-than {
+  min-width: 113px;
+}
+.less-than1 {
+  min-width: 105px;
+}
+.comparison-options,
+.less-than {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3px 0 0;
+}
+.comparison-options {
+  width: 360px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: 20px;
+}
+.amount-range-slider {
+  height: 72px;
+  flex: 1;
+  position: relative;
+  border-radius: 40px;
+  background-color: #fff;
+  min-width: 133px;
+  z-index: 1;
+}
+.amount-range {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 62px;
+}
+.amount-comparison {
+  flex: 1;
+  flex-direction: column;
+  gap: 13px;
+}
+.amount-comparison,
+.amount-filter,
+.product-amount-filter {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.amount-filter {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 5px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+.product-amount-filter {
+  width: 477px;
+  flex-direction: column;
+  gap: 11.3px;
+  text-align: left;
+  font-size: 40px;
+  color: #000;
+  font-family: Poppins;
+}
+@media screen and (max-width: 450px) {
+  .less-than1,
+  .more-than {
+    font-size: 16px;
+  }
+  .comparison-options {
+    flex-wrap: wrap;
+  }
+  .amount-range {
+    gap: 31px;
+  }
+}
